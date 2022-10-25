@@ -82,6 +82,25 @@ All images and content are my own.
 
 ### Acknoledgements - Attribution
 
+#### API Ninjas
+
+https://api-ninjas.com/api/randomword
+The following example code is from API-Ninjas.com and has been used as the basis for my API call. My API key is kmQ6b+eEy1yibeOtEmGp2g==IgpoxGkqjCuD6Cbh for testing. It will be changed once deployed to avoid abuse.
+```javascript
+const request = require('request');
+
+request.get({
+  url: 'https://api.api-ninjas.com/v1/randomword',
+  headers: {
+    'X-Api-Key': 'YOUR_API_KEY'
+  },
+}, function(error, response, body) {
+  if(error) return console.error('Request failed:', error);
+  else if(response.statusCode != 200) return console.error('Error:', response.statusCode, body.toString('utf8'));
+  else console.log(body)
+});
+```
+
 ## Deployment
 
 ### How to run this project locally
