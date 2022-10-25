@@ -44,13 +44,14 @@ I have created wireframe views of the three pages that the site will have based 
 ### Main Game Screen
 
 ##### Mobile
+https://wireframe.cc/qbmGOd
 
 ---
 ##### Tablet
-
+https://wireframe.cc/doqUVW
 ---
-##### laptop
-
+##### laptop / Desktop
+https://wireframe.cc/xWuU9l
 ---
 
 ### Win / Loose Conclusion Screen
