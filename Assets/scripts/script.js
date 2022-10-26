@@ -51,16 +51,18 @@ $('.keyboard').click(function () {
             console.log('CORRECT')
             $(this).addClass('green');
             wordDisplay[letter] = this.id;
-            console.log(wordDisplay);
             updateWordDisplay();
             lettersCorrect ++;
-
         }
     }
     
     lettersTried.push(this.id)
     console.log(lettersTried);
     $(this).addClass('red');
+    if(lettersCorrect === word.length)
+    {
+        alert("Well done !")
+    }
 })
 
 
