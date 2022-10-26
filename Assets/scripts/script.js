@@ -1,6 +1,6 @@
 console.log("Script linked ok!");
 
-let dictEasy = ['CAT', 'DOG', 'BALL', 'FOOT', 'HAND', 'HEAD', 'RAT', 'bag', 'sad', 'pat', 'leg', 'arm', 'car', 'bus', 'train'];
+let dictEasy = ['CAT', 'DOG', 'BALL', 'FOOT', 'HAND', 'HEAD', 'RAT', 'BAG', 'SAD', 'PAT', 'LEG', 'ARM', 'CAR', 'BUS', 'TRAIN'];
 let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 let lettersTried = [];
 let attemptsRemaining = 15;

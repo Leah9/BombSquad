@@ -1,17 +1,31 @@
 #main {
     /* background-color: blue; */
+    justify-content: center;
+    text-align: center;
 }
 
 .flex-container {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#word-display {
+    font-size: 3rem;
+    text-align: center;
 }
 
 .keyboard{
     font-size: 1.5rem;
     float: left;
     padding: 5px;
+    margin: 0.1em;
+    border-color: rgb(32, 45, 49);
+    border: solid;
+    border-radius: 10%;
+    width: 1.5em;
+    text-align: center;
 }
 
 
@@ -27,10 +41,10 @@
 #bomb {
    
     border-color: gray;
-    border-radius: 90%;
+    border-radius: 50%;
     background-color: lightgray;
-    height: 200px;
-    width: 50%;
-    padding: 5rem;
-    margin: 5rem;
+    /* height: 200px; */
+    width: 70%;
+    padding: 10%;
+    margin: 5%;
 }
