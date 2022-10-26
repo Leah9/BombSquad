@@ -1,9 +1,36 @@
 #main {
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .keyboard{
     font-size: 1.5rem;
     float: left;
     padding: 5px;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+#bomb {
+   
+    border-color: gray;
+    border-radius: 90%;
+    background-color: lightgray;
+    height: 200px;
+    width: 50%;
+    padding: 5rem;
+    margin: 5rem;
 }
